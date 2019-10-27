@@ -1,0 +1,24 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<body>
+
+<div class="card-group">
+  <div *ngFor="let subject of result" class="col-sm-4 ml-3 mt-5">
+      <div class="card" style="margin: 15px">
+          <div class="card-header" style="background-color: palegoldenrod">
+            <h5 class="card-title"><b> Course Name :</b>{{subject.subjectName}}</h5>
+          </div>
+        <div class="card-body">
+          <p> <b>Description:</b>{{subject.subjectDescription}}</p>
+        </div>
+        <div class="card-footer">
+          <p class="card-text"><b>Professor:</b>{{subject.professorName}}</p>
+          <p class="card-text"><b>Credits:</b>{{subject.credits}}</p>
+        </div>
+      </div>
+</div>
+</div>
+<br>
+<br>
+</body>

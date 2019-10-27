@@ -1,0 +1,11 @@
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+body{
+  background-image: url("https://i.ytimg.com/vi/zgg1xGSGw0s/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

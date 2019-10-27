@@ -1,0 +1,40 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black; font-style: italic">
+  <a class="navbar-brand" routerLink="/Home"><i>STUDENT WORLD</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item " style="cursor: pointer">
+        <a class="nav-link" routerLink="/Home"><i>Home </i><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" style="cursor: pointer">
+        <a class="nav-link" href="https://www.umkcbookstore.com/" target="_blank"><i>Books</i></a>
+      </li>
+      <li class="nav-item" style="cursor: pointer">
+        <a class="nav-link" routerLink="/Cal"><i>Calendar</i></a>
+      </li>
+      <li class="nav-item" style="cursor: pointer">
+        <a class="nav-link" href="https://www.umkc.edu/news/" target="_blank">News</a>
+      </li>
+
+      <li class="nav-item" style="cursor: pointer">
+        <a class="nav-link" routerLink="/Friends">Friends</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <ul class="navbar-nav mr-auto float-right">
+        <li class="nav-item" style="cursor: pointer">
+          <a class="nav-link" routerLink="/Profile" >Profile</a>
+        </li>
+      </ul>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" routerLink="/SignIn">Log Out</button>
+    </form>
+  </div>
+</nav>
